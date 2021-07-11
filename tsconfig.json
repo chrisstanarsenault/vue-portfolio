@@ -13,12 +13,25 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
+      "node",
       "jest"
     ],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "#/*": [
+        "./src/*"
+      ],
+      "#components/*": [
+        "./src/components/*"
+      ],
+      "#composables/*": [
+        "./src/composables/*"
+      ],
+      "#styles/*": [
+        "./src/styles/*"
+      ],
+      "#views/*": [
+        "./src/views/*"
+      ],
     },
     "lib": [
       "esnext",
@@ -29,12 +42,8 @@
   },
   "include": [
     "src/**/*.ts",
+    "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
+    "src/**/*.vue"
   ]
 }
