@@ -17,28 +17,28 @@
       </router-link>
 
       <router-link
-        to="/"
+        to="/my-skills"
         class="sidebar-router-link"
       >
         My Skills
       </router-link>
 
       <router-link
-        to="/"
+        to="/work"
         class="sidebar-router-link"
       >
         Work
       </router-link>
 
       <router-link
-        to="/"
+        to="/blog"
         class="sidebar-router-link"
       >
         Blog
       </router-link>
 
       <router-link
-        to="/"
+        to="/contact"
         class="sidebar-router-link"
       >
         Contact
