@@ -29,6 +29,9 @@
       "#styles/*": [
         "./src/styles/*"
       ],
+      "#assets/*": [
+        "./src/assets/*"
+      ],
       "#views/*": [
         "./src/views/*"
       ],

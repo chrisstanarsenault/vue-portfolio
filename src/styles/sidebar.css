@@ -1,5 +1,5 @@
 .sidebar-wrapper {
-  border: 1px solid black;
+  border-right: 1px solid black;
   width: 10%;
   height: 100vh;
   font-size: 1.2rem;
@@ -9,12 +9,25 @@
   justify-content: space-between;
 }
 
+.sidebar-avatar img {
+  width: 100%;
+}
+
 .sidebar-page-links {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 20em;
+}
+
+.sidebar-router-link {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1rem 0;
+  text-decoration: none;
 }
 
 .sidebar-social-icons {
