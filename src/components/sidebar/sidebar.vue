@@ -45,10 +45,31 @@
       </router-link>
     </div>
 
-    <div class="sidebar-social-icons">
-      <p>soc1</p>
-      <p>soc2</p>
-      <p>soc3</p>
+    <div class="sidebar-social-icons-wrapper">
+      <a
+        href="https://www.twitter.com/mynameischrisa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="sidebar-social-icons-link"
+      >
+        <i class="devicon-twitter-original" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/chrisstanarsenault"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="sidebar-social-icons-link"
+      >
+        <i class="devicon-linkedin-plain" />
+      </a>
+      <a
+        href="https://www.github.com/chrisstanarsenault"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="sidebar-social-icons-link"
+      >
+        <i class="devicon-github-original" />
+      </a>
     </div>
   </div>
 </template>

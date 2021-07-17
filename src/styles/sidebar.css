@@ -1,16 +1,16 @@
 .sidebar-wrapper {
   border-right: 1px solid black;
   width: 10%;
-  height: 100vh;
+  height: 100%;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   justify-content: space-between;
 }
 
 .sidebar-avatar img {
   width: 100%;
+  margin-top: 1rem;
 }
 
 .sidebar-page-links {
@@ -30,6 +30,14 @@
   text-decoration: none;
 }
 
-.sidebar-social-icons {
+.sidebar-social-icons-wrapper {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.sidebar-social-icons-link {
+  text-decoration: none;
+  font-size: 1.4rem;
 }
