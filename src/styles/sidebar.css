@@ -28,6 +28,16 @@
   text-align: center;
   padding: 1rem 0;
   text-decoration: none;
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  /* fix colors once have set color scheme */
+  background-image: linear-gradient(to left, transparent 50%, rgba(189, 211, 147, 0.9) 50%);
+  transition: all .4s ease-in;
+}
+
+.sidebar-router-link:hover {
+  color: white;
+  background-position: 0 0
 }
 
 .sidebar-router-link:last-child {
