@@ -1,9 +1,13 @@
 <template>
   <div class="sidebar-wrapper">
     <div class="sidebar-avatar">
-      <router-link to="/">
+      <router-link
+        to="/"
+        aria-label="Home"
+      >
         <img
           :src="avatar"
+          alt=""
         >
       </router-link>
     </div>
@@ -51,6 +55,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="sidebar-social-icons-link"
+        aria-label="Twitter"
       >
         <i class="devicon-twitter-original" />
       </a>
@@ -59,6 +64,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="sidebar-social-icons-link"
+        aria-label="LinkedIn"
       >
         <i class="devicon-linkedin-plain" />
       </a>
@@ -67,6 +73,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="sidebar-social-icons-link"
+        aria-label="Github"
       >
         <i class="devicon-github-original" />
       </a>
